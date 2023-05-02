@@ -260,18 +260,20 @@
     .box_text_s_one h1{
         font-size: 2.5em;    
         text-align: left;
+        z-index: 1;
     }
 
     .box_text_s_one h2{
         font-size: 1.7em;
         width: 100%;
+        z-index: 1;
     }
     .box_sub_text_s_one{
         width: 90%;
     }
     .box_sub_text_s_one p{
         font-size: 1em;
-        font-weight: 300;
+        font-weight: 400;
         width: 100%;
 
         text-shadow: 1px 1px 5px black;
@@ -288,7 +290,7 @@
         height: 25rem;
         position: fixed;
         
-        bottom: 4rem;
+        bottom: 2rem;
     }
     .container_left{
         width: 100%;
