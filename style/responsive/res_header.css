@@ -63,9 +63,9 @@
         width: 35vw;
         gap: 5rem;
         padding-top: 2rem;
-        background-color: black;
-        border-right: 2px solid #8E44AD;
-        animation-duration: 1s;
+        background-color:#8E44AD ;
+        border-right: 1px solid black;
+        animation-duration: 0.4s;
         margin-left: -100vw;
         z-index: 100;
     }

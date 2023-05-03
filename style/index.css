@@ -78,6 +78,7 @@ main{
     font-weight: 600;
 
     font-size: 3.5em;
+    z-index: 1;
 }
 .box_text_s_one h2{
     color:whitesmoke;
@@ -85,16 +86,18 @@ main{
     font-weight: 400;
 
     font-size: 3em;
+    z-index: 1;
 }
 .box_text_s_one h2 span{
     color: var(--purple_strong);
     font-weight:500;
+    z-index: 1;
 }
 
 
 
 .box_sub_text_s_one{
-    width:70%;
+    width:80%;
     height: auto;
 
     margin-top: 3rem;
@@ -104,14 +107,16 @@ main{
     align-items: flex-start;
     justify-content: flex-start;
     gap: 2rem;
+    z-index: 1;
 }
 .box_sub_text_s_one p{
     color:whitesmoke;
-    font-family:'Roboto', sans-serif;;
+    font-family:'Poppins', sans-serif;
     font-weight: 300;
     letter-spacing: 3px;
 
     font-size: 1.1em;
+    z-index: 1;
 }
 .box_sub_text_s_one a{
     background-color: var(--purple_strong);
@@ -131,16 +136,17 @@ main{
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
 
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 
     transition: 0.7s;
+    z-index: 1;
 }
 
 
 
 .box_sub_text_s_one a:hover{
     background-color: transparent;
-    border-color: white;
+    border-color: var(--purple_strong);
     transition: 0s;
    
 }

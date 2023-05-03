@@ -15,7 +15,7 @@ header{
     position: fixed;
     z-index: 100;
 
-    box-shadow: 1px 1px 5px rgba(192, 192, 192, 0.342);
+    border-bottom: 1px solid rgba(192, 192, 192, 0.316);
 }
 
 .box_img_header img{
@@ -29,6 +29,7 @@ header{
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
+    transition: 0.7s;
 }
 
 .btn_icon_header{
@@ -59,7 +60,7 @@ header{
 .button_header:hover{
     transition: 0.5s;
     color: white;
-    border-bottom: 2px solid #8E44AD;
+    border-bottom: 1px solid #8E44AD;
     padding: 2% 0;
     outline: none;
     text-shadow: 1px 1px 10px rgb(150, 148, 148);

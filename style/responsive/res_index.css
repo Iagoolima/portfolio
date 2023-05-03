@@ -4,8 +4,9 @@
     }
 
     .box_text_s_one h2{
-        font-size: 2em;
-        width: 65%;
+        width: 100%;
+        font-size: 2.4em;
+        
     }
     .box_sub_text_s_one a{
         font-size: 1.5em;
@@ -32,7 +33,8 @@
     }
 
     .box_text_s_one h2{
-        font-size: 1.8em;
+        width: 100%;
+        font-size: 2.2em;
     }
 
     .box_sub_text_s_one a{
@@ -58,8 +60,8 @@
     }
 
     .box_text_s_one h2{
-        font-size: 1.7em;
-        width: 75%;
+        font-size: 2.2em;
+       
     }
 
     .box_sub_text_s_one p{
@@ -87,15 +89,17 @@
     }
 
     .box_text_s_one h2{
-        font-size: 1.6em;
-        width: 75%;
+        font-size: 2.1em;
+        width: 90%;
     }
     .box_sub_text_s_one p{
         font-weight: 200;
+        z-index: 1;
     }
 
     .box_sub_text_s_one a{
         font-size: 1.4em;
+        z-index: 1;
     }
     .img_s_one_logo_high{
         width: 27rem;
@@ -113,18 +117,22 @@
 @media screen and (max-width:834px) {
     .box_text_s_one h1{
         font-size: 2.5em;
+        z-index: 1;
     }
 
     .box_text_s_one h2{
-        font-size: 1.6em;
-        width: 75%;
+        font-size: 1.9em;
+        width: 90%;
+        z-index: 1;
     }
     .box_sub_text_s_one p{
         font-weight: 200;
+        z-index: 1;
     }
 
     .box_sub_text_s_one a{
         font-size: 1.4em;
+        z-index: 1;
     }
     .img_s_one_logo_high{
         width: 25rem;
@@ -152,13 +160,12 @@
 
     .box_text_s_one h1{
         font-size: 2.5em;
-        
         text-align: left;
     }
 
     .box_text_s_one h2{
-        font-size: 1.7em;
-        width: 70%;
+        font-size: 1.9em;
+        width: 80%;
     }
     .box_sub_text_s_one{
         width: 90%;
@@ -205,7 +212,7 @@
     }
 
     .box_text_s_one h2{
-        font-size: 1.7em;
+        font-size: 1.8em;
         width: 100%;
     }
     .box_sub_text_s_one{
@@ -264,8 +271,8 @@
     }
 
     .box_text_s_one h2{
-        font-size: 1.7em;
-        width: 100%;
+        font-size: 1.9em;
+        width: 105%;
         text-shadow: 1px 1px 2px black;
         z-index: 1;
     }
@@ -276,9 +283,8 @@
         font-size: 1em;
         font-weight: 400;
         width: 100%;
-
-        text-shadow: 1px 1px 5px black;
         z-index: 1;
+        line-height: 18px;
     }
 
     .box_sub_text_s_one a{
@@ -304,4 +310,14 @@
     }
 
     
+}
+
+@media screen and (max-width:375px) {
+    .box_text_s_one h1{
+        font-size: 2.2em; 
+    }
+    .box_text_s_one h2{
+        font-size: 1.6em;
+        width: 100%;
+    }
 }
