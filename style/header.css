@@ -15,7 +15,7 @@ header{
     position: fixed;
     z-index: 100;
 
-    border-bottom: 1px solid rgba(192, 192, 192, 0.316);
+    border-bottom: 1px solid rgba(192, 192, 192, 0.158);
 }
 
 .box_img_header img{
