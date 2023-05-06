@@ -46,7 +46,7 @@ header{
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
 
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent;
     letter-spacing: 3px;
 
     transition: 0.8s; 
