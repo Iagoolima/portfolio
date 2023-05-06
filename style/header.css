@@ -29,7 +29,7 @@ header{
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 .btn_icon_header{
