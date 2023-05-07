@@ -19,7 +19,7 @@ header{
 }
 
 .box_img_header img{
-    width: 70%;
+    width: 60%;
     height: auto;
 }
 
@@ -50,6 +50,7 @@ header{
     letter-spacing: 3px;
 
     transition: 0.8s; 
+    width: auto;
 
     display: flex;
     justify-content: center;

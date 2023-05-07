@@ -764,9 +764,7 @@
 }
 
 @media screen and (max-width:385px) {
-    .box_title_project h1{
-        font-size: 2.5em;
-    }
+   
     .box_project{
         height: 16rem;
         padding: 2% 2%;
@@ -783,4 +781,48 @@
         margin-bottom: 0.5rem;
     }
     
+}
+
+@media screen and (max-width:695px) {
+    #s_four{
+        padding: 5% 5%;
+    }
+
+}
+
+@media screen and (max-width:570px) {
+    .box_title_abilities h1{
+        font-size: 2.2em;
+    }
+    #s_four{
+        padding: 5% 2%;
+    }
+    .box_abilities {
+        
+        height: 12rem;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .box_title_abilities h1{
+        font-size: 2.2em;
+    }
+    #s_four{
+        padding: 5% 2%;
+    }
+    .container_box_abilities {
+        gap: 1rem;
+    }
+    .box_abilities {
+        height: 12rem;
+        width: 10rem;
+    }
+}
+@media screen and (max-width:370px) {
+   
+    .box_abilities {
+        height: 10rem;
+        width: 8rem;
+    }
 }
