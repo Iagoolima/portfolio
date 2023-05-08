@@ -286,6 +286,9 @@
         -webkit-animation: none !important;
         transition: none !important;
         -webkit-transition: none !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
     }
 
     .box_img_s_one_logo_high {
@@ -339,7 +342,8 @@
         height: 25rem;
         position: fixed;
 
-        bottom: 1rem;
+        bottom: 2rem;
+        right: 0rem;
     }
 
     .container_left {
@@ -826,3 +830,84 @@
         width: 8rem;
     }
 }
+
+@media screen and (max-width:1280px) {
+   footer{
+    padding: 5% 7%;
+   }
+    
+}
+@media screen and (max-width:1024px) {
+    footer{
+     padding: 0% 5%;
+    }
+    .box_title_footer h1{
+        font-size: 2em;
+    }
+
+    .container_left_footer{
+        padding-top: 5%;
+        width: 100%;
+        background-color: rgb(15, 15, 15);
+    }
+    .container_right_footer{
+        display: none;
+    }
+     
+ }
+
+ @media screen and (max-width:600px) {
+    footer{
+        padding: 0% 0%;
+       }
+    .content_footer{
+        display: flex;
+        padding: 0% 3%;
+        flex-direction: column;
+    }
+
+    .box_text_footer{
+        width: 100%;
+    }
+
+    .box_redes_footer{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box_text_footer{
+        display: flex;
+        align-items: center;
+    }
+    .box_text_footer h2{
+        font-size: 1.3em;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .box_text_footer p{
+        font-size: 0.9em;
+        text-align: left;
+    }
+    .box_text_footer a{
+        width: 13rem;
+        height: 3rem;
+        font-size: 0.9em;
+        margin-top: 1rem;
+        
+    }
+    ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box_redes_footer a{
+        width: 4rem;
+        height: 4rem;
+    }
+
+   
+     
+ }
+

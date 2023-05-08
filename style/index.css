@@ -35,6 +35,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    background-color: black;
 }
 
 main {
@@ -92,7 +93,6 @@ main {
     color: whitesmoke;
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
-
     font-size: 3em;
     z-index: 1;
 }
@@ -100,6 +100,7 @@ main {
 .box_text_s_one h2 span {
     color: var(--purple_strong);
     font-weight: 500;
+    text-shadow: 1px 1px 2px black;
     z-index: 1;
 }
 
@@ -183,10 +184,11 @@ main {
 }
 
 .img_s_one_logo_high {
-    background-image: url(../image/img_logo_grande2.png);
+    background-image: url(../image/logo/bg_logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
+    filter: blur(5px);
 
     width: 50rem;
     height: 50rem;
@@ -458,6 +460,7 @@ main {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: whitesmoke;
+    text-align: left;
 }
 
 .box_project a {
@@ -888,6 +891,177 @@ main {
     animation: 10s bounce_two infinite;
 }
 
+
+
+
+
+
+
+footer{
+    display: flex;
+    height: auto;
+    min-width: 100%;
+    background-color: rgb(15,15,15);
+    padding: 5% 13%;
+}
+
+.container_left_footer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.box_title_footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_title_footer h1{
+    color: whitesmoke;
+    font-size: 3em;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.container_right_footer{
+    width: 50%;
+    height: auto;
+    z-index: 0;
+}
+.content_footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: rgb(15, 15, 15);
+}
+.box_text_footer{
+    height: auto;
+    width: 60%;
+
+    padding: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.box_text_footer h2{
+    color: var(--purple_strong);
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+.box_text_footer p{
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.box_text_footer a {
+    background-color: var(--purple_strong);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15rem;
+    height: 4rem;
+    border-radius: 20px;
+
+    text-decoration: none;
+    outline: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+
+    border: 1px solid transparent;
+
+    transition: 0.7s;
+    z-index: 1;
+
+    margin-top: 2rem;
+}
+
+
+
+.box_text_footer a:hover {
+    background-color: transparent;
+    border-color: var(--purple_strong);
+    transition: 0s;
+
+}
+
+.box_redes_footer{
+    width: 40%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5% 2%;
+
+    gap: 1rem;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+}
+.box_redes_footer{
+    height: auto;
+    gap: 1rem;
+}
+
+.box_redes_footer a{
+background-color: transparent;
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 5rem;
+height: 5rem;
+border-radius: 20px;
+
+text-decoration: none;
+outline: none;
+
+border: 1px solid var(--purple_strong);
+
+transition: 0.7s;
+z-index: 1;
+list-style: none;
+}
+
+.box_redes_footer a:hover{
+    transition: 0.1s;
+    border-color: whitesmoke;
+}
+
+.sub_footer{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8em;
+    
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
