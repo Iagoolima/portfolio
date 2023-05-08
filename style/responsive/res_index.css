@@ -36,6 +36,10 @@
         font-size: 2.8em;
     }
 
+    .box_text_s_one{
+        height: 30%;
+    }
+
     .box_text_s_one h2 {
         width: 100%;
         font-size: 2.2em;
@@ -43,6 +47,7 @@
 
     .box_sub_text_s_one a {
         font-size: 1.6em;
+        
     }
 
     .img_s_one_logo_high {
@@ -787,6 +792,16 @@
     
 }
 
+@media screen and (max-width:1366px) {
+    #s_four{
+        padding: 5% 8%;
+    }
+    .box_redes_footer a{
+        width: 4.2rem;
+        height: 4.2rem;
+
+}
+
 @media screen and (max-width:695px) {
     #s_four{
         padding: 5% 5%;
@@ -897,7 +912,7 @@
         margin-top: 1rem;
         
     }
-    ul{
+    .box_redes_footer ul{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -905,9 +920,9 @@
     .box_redes_footer a{
         width: 4rem;
         height: 4rem;
+    } 
+    .sub_footer{
+        margin-bottom: 2rem;
     }
-
-   
-     
  }
 
