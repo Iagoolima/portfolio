@@ -67,6 +67,7 @@ main {
     display: flex;
     align-items: left;
     flex-direction: column;
+    z-index: 1;
 }
 
 .box_text_s_one {
@@ -169,6 +170,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    z-index: 0;
 }
 
 .box_img_s_one_logo_high {
@@ -681,12 +683,16 @@ main {
     right: 0;
     bottom: 0;
     margin: auto;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
     
 
 }
 
 .position_img img:hover {
     content: url(.././image/icones/habilidade/icons8-percentagem-96.png);
+    
+    opacity: 0.8;
 }
 
 
