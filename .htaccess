@@ -1,2 +1,9 @@
 RewriteEngine On
-RewriteRule ^([0-9A-Za-z-_]+)$ /$1.html
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

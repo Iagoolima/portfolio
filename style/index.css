@@ -185,7 +185,7 @@ main {
 }
 
 .img_s_one_logo_high {
-    background-image: url(../image/logo/bg_logo.png);
+    background-image: url(../image/logo/bg_logo.webp);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
