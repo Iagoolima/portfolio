@@ -1,0 +1,970 @@
+*{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'fonteTitulo' ;
+    src: url('fonte/FredokaOne-Regular.ttf') format('truetype');
+    font-style:normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: inputFonte;
+    src: url('fonte/RussoOne-Regular.ttf') format('truetype');
+    font-style:normal;
+    font-weight: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*--------------------------scrollbar------------------------------------------------------------------------*/
+
+
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #E9F4FB;
+    padding: 100px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(251, 255, 0, 0.786);
+    width: 15px;
+    border-radius: 80px;
+}
+
+
+
+/*-------------------------Header---------------------------------------------------------------------------------*/
+header{
+    background-color: #1bd1df;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex: wrap;
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+.boxHeader{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.boxHeader:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.simboloHeaderHome{
+    background-color: #1bd1df;
+    height: 45px;
+   
+}
+
+#linkHome{
+    text-decoration: none;
+}
+
+
+.BoxTitleHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.titleHeader{
+    background-color: transparent;
+    color: white;
+    font-family: fonteTitulo;
+    letter-spacing: 5px;
+    font-size: 20px;   
+}
+
+.boxProf{
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    right: 30px;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/*--------------------------------------------divisão entre header com o conteudo-----------------------------------------------------------------------*/
+
+
+.boxLowHeader{
+    background-color: #E9F4FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+    width: 100%; 
+}
+
+
+/*--------------------------------------------conteudo pagina 1 - grid-----------------------------------------------------------------------*/
+
+
+.boxContent{
+    display: grid;
+    grid-template-columns: 12% 76% 12%;
+    grid-auto-rows: minmax(150px, 100% );
+    min-height: 85vh;
+}
+
+.column{
+    background-color: #E9F4FB;
+}
+
+.columnMain{
+    background-image: url(imagens/imagemFundo-ArcoIris.jpg);
+    background-repeat: no-repeat;
+    background-position:0px 30% ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 2px;
+}
+.boxColumnMainHigh{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+.SubBoxColumnMainHigh{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textColumnMain{
+    text-align: center;
+    font-family: fonteTitulo;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    text-shadow: 0.1em 0.1em 0.2em rgb(61, 61, 61);
+}
+
+/*---------------------------------Botão-------------------------------------------------------------*/
+
+.linkTela2{
+    margin-top: 30px;
+    border: 2px solid white;
+    background-color:rgba(255, 255, 255, 0.916);
+    color: #1bd1df;
+    border: 4px solid #1bd1df;
+    width: 21vh;
+    height: 8vh;
+    font-size: 21px;
+    border-radius: 25vh;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkTela2 b{
+    background-color: transparent;
+}
+
+.linkTela2:hover{
+    cursor: pointer;
+    background-color: #1bd2df9e;
+    border-color: white;
+    color: white;
+    border-radius:26vh ;
+    width: 22vh;
+    height: 9vh;
+    font-size: 22px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px rgba(235, 235, 235, 0.925);
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+.mainBox{
+    display: flex;
+    background-color: transparent; 
+}
+
+.boxColumnMainLow{
+    background-color: transparent;
+}
+
+.subBoxColumnMainLow{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(240px, 100% );
+    width: 100%;
+    flex-wrap: wrap;
+    background-color:transparent;
+}
+
+
+.box1{
+    background-color: #b3aeccbd;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.box2{
+    background-color: #f7ca17b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box3{
+    background-color:#8611a991;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+
+.boxTextClass{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.simboloBox{
+    background-color: transparent;
+    width: auto;
+    height: 100px;
+    margin-left: 10px;
+}
+
+
+.boxTitleH2{
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textBox{
+    background-color: transparent;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.boxPraia{
+    padding-right: 24px;
+}
+
+
+/*------------------------------tela 2------------------------------------------------*/
+
+
+.boxRegistrationContent{
+    background-color: transparent;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E9F4FB;
+    gap: 0px 10px;
+    flex-wrap: wrap;
+}
+
+.boxLowRegistrationContent{
+    width: 100%;
+    height: 150px;
+    background-color: #E9F4FB;
+}
+
+.contentRegistrationGrid{
+    display: grid;
+    grid-template-columns:40%  60% ;
+    grid-auto-rows: minmax(94vh, 100%);
+    background-color: transparent;
+    min-width: none;
+}
+
+#boxRegistration{
+    background-color: #4ec0c969;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registrationHeader{
+    background-color:#e9e931fb;
+    height: 70px;
+    width: 100%;
+    padding:2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-shadow: 0.1em 0.1em 0.2em rgb(61, 61, 61); 
+}
+
+.titleRegistrationHeader{
+    font-family:fonteTitulo ;
+    font-size: 40px;
+    background-color: transparent;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.containerRegistration{
+    width: 91%;
+    height: 85%;
+    padding: 10px;
+    background-color: #f975bee2;
+    margin: 10px 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxTextRegistrationHigh{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.TextRegistrationHigh{
+    font-size: 20px;
+    font-family:inputFonte ;
+    background-color: transparent;
+    color: white;
+}
+
+form{
+    background-color: transparent;
+    border: 10px solid rgba(255, 255, 255, 0.445);
+    border-radius: 30px;
+    width: auto;
+    height: 50%;
+    padding: 5px;
+}
+
+label{
+    background-color: transparent;
+    color: rgba(255, 255, 255);
+}
+
+
+.subBoxLine1{
+    margin-right: 100px;
+    padding:15px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: inputFonte;
+    display: flex;
+    background-color: transparent;
+}
+
+#inputName{
+    height: 30px;
+    border-color: transparent;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-size: 70%;
+    margin-left: 10px;
+    background-color: transparent;
+    outline: none;
+}   
+
+#inputAge{
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.637);
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: transparent;  
+}
+
+.subBoxLine2{
+    margin-right: 100px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: inputFonte;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.buttonPegarFolha{
+    width: 85%;
+    height: auto;
+    display: flex;  
+}
+
+#inputSala{
+    font-size: 15px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.637);
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.mensagemFolha{
+    background-color: transparent;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.637);
+    width: 170px;
+}
+
+
+#scriptFolha{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    border:2px solid white;
+    color:rgba(0, 0, 0, 0.637) ;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    transition: 1s;
+    padding-left: 10px;
+    font-family: inputFonte;
+    letter-spacing: 1px;
+}
+
+#scriptFolha:hover{
+    background-color: rgba(90, 90, 90, 0.26);
+    font-size: 17px;
+    width: 160px;
+    height: 33px;
+    transition: 1s;
+    color: white;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.line1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.line2{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.boxButtonSubmit{
+    height: 35px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+#enviar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: fonteTitulo;
+    letter-spacing: 2px;
+    border:2px solid white;
+    background-color:transparent;
+    transition: 1s;
+}
+
+#enviar:hover{
+    width: 65%;
+    height: 60px;
+    font-size: 40px ;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 1px 1px 10px white;
+}
+
+
+
+
+option{
+    text-align: center;
+    font-size: 18px;
+    justify-content: centter;
+    align-items: center; 
+}
+
+.boxSimboloCrianca{
+   margin-top: 150px;
+   background-color: transparent;
+   height: 40px;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   display: flex; 
+}
+
+#simboloFoguete{
+    background-color: transparent;
+    height: 180px; 
+    width: auto;
+}
+
+
+
+
+/*-----------------------------text area ----------------*/
+
+
+.boxTextArea{
+    background-color: #1bd1df;
+}
+
+.containerTextArea{
+    background-image: url(imagens/imagemFundoNova.JPG) ;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 93%;
+    height: 95%;
+    margin: 10px 40px;
+    border-radius: 50px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5%;
+    border: 2px solid white;
+    box-shadow:10px 10px 20px 2px rgba(255, 255, 255, 0.562); ;
+}
+
+
+#folha{
+    background-image:url(imagens/imagemFolha.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+    padding-top: 61px;
+    padding-left: 57px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: 61vh;
+    height: 91%;
+    outline: none;
+    font-size: 20px;
+    align-items: baseline;
+    display: none;
+}
+
+textarea{
+    resize: none;
+    border-radius: 10px;
+    overflow-y: hidden;
+    line-height:22.1px;
+}
+
+#textFolha{
+    background-color: transparent;
+    font-family: fonteTitulo;
+    color:rgb(253, 253, 253);
+    font-size: 40px;
+    letter-spacing: 6px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(61, 61, 61);;
+}
+
+@media (max-width:1585px){
+    form{
+        width: 90%;
+    }
+}
+
+
+
+
+@media (max-width:1441px){
+    .contentRegistrationGrid{
+        grid-template-columns:1fr;
+       
+    }
+
+    form{
+        height: 80%;
+    }
+    #simboloFoguete{
+        display: none;
+    }
+    .subBoxLine1, .subBoxLine2{
+        margin: 7px;
+    }
+
+
+    #boxRegistration{
+        border: 10px solid white;
+    }
+
+   
+    .subBoxLine1, .subBoxLine2{  
+        justify-content: center;
+    }
+    #folha{
+        background-image:none;
+        overflow-y: scroll;
+        padding: 0;
+        padding: 20px;
+    }
+    
+}
+
+
+
+
+@media (max-width:1024px ){
+    .boxProf{
+        display: none; 
+    }
+
+    .textColumnMain{
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+    .subBoxColumnMainLow{
+       grid-template-columns: 1fr;
+       grid-auto-rows: 100px;
+    }
+
+    .boxTitleH2 {
+        font-size: 25px;
+    }
+
+    .textBox{
+        font-size: 18px;
+    }
+
+    .simboloBox{
+        height: 60px;
+    }
+
+    #simboloCriança{
+        height: 180px;
+    }
+
+    #folha{
+        background-image:none;
+        overflow-y: scroll;
+    }
+  
+}
+
+
+
+
+
+@media (max-width:768px){
+
+    .linkTela2{
+        font-size: 20px;
+    }
+    
+
+   
+
+    .boxContent{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5% 99% 0.5%;
+
+    }
+    
+    .columnPrincipal{
+        border: 10px solid white;
+    }
+
+    .contentRegistrationGrid{
+        grid-template-columns:  100%;
+    }
+
+    form{
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .line1, .line2{
+        width: 100%;
+    }
+
+    .subBoxLine1, .subBoxLine2{
+        width: 90%;
+        justify-content: left;
+    }
+
+
+    label{
+        font-size: 25px;
+    }
+
+    #inputName{
+        width: 100%;
+    }
+
+    .boxTextArea{
+        display: flex;
+        justify-content: center;
+    }
+
+    .registrationHeader{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #boxRegistration{
+        width:100%;
+        justify-content: center;
+    }
+
+    .containerRegistration{
+        width:85%;
+        padding-right: 20px;
+    }
+
+    .containerTextArea{
+        justify-content: center;
+    }
+
+    #simboloFoguete{
+        background-color: transparent;
+        height: 150px; 
+        padding-bottom: 20px;
+    }
+
+    #folha{
+        background-image:none;
+        overflow-y: scroll; 
+    }
+
+    .boxTextArea{
+        border: 10px solid white;
+    }
+
+    #simboloCriança{
+        height: 150px;
+    }
+}
+
+
+
+@media (max-width:425px){
+
+    #simboloFoguete{
+        display: flex;
+    }
+    .linkTela2{
+        font-size: 15px;
+        height: 6vh;
+    }
+
+    .linkTela2:hover{
+        width: 18vh;
+        height: 7vh;
+        font-size: 17px;
+    }
+    
+    .columnPrincipal{
+        border: 5px solid white;
+    }
+
+    .contentRegistrationGrid{
+        grid-template-columns:  100%;
+    }
+
+    form{
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .line1, .line2{
+        width: 100%;
+    }
+
+    .subBoxLine1, .subBoxLine2{
+        width: 90%;
+        justify-content: left;
+    }
+
+
+  
+
+    #inputName{
+        width: 100%;
+    }
+
+    .boxTextArea{
+        display: flex;
+        justify-content: center;
+    }
+
+    .registrationHeader{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    
+  
+
+    .containerTextArea{
+        justify-content: center;
+    }
+
+    #simboloFoguete{
+        background-color: transparent;
+        height: 80px; 
+        padding-bottom: 15px;
+    }
+
+    #scriptFolha{
+        font-size: 10px;
+        position: static
+    }
+
+    #scriptFolha:hover{
+        font-size: 9px;
+        width: 150px;
+        height: 33px;
+        
+    }
+        
+
+    .titleHeader{
+        font-size: 10px;
+        text-align: center;
+        
+    }
+    .textHomeHeader{
+        display: none;
+    }
+    .textColumnMain{
+        font-size: 25px;
+    }
+    .linkTela2{
+        width: 120px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    
+
+
+
+    .boxTitleH2{
+        font-size: 20px;
+    }
+
+    .textBox{
+        font-size: 13px;
+    }
+    .containerRegistration{
+        margin: 0px;
+        width: 100%;
+    }
+    .TextRegistrationHigh{
+        font-size: 20px;
+    }
+    .registrationHeader{
+        
+        margin-bottom: 20px;
+    }
+    label{
+        font-size: 18px;
+    }
+
+    form{
+        height:350px;
+        justify-content: left;
+    }
+
+    
+    .subBoxLine1, .line1, .subBoxLine2, .line2{
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        padding: 0;
+        padding-top: 10px;
+        margin:0 ;
+    }
+    .boxButtonSubmit{
+        padding-top: 50px;
+    }
+
+    #inputName::placeholder{
+        font-size: 12px;
+    }
+    
+    #textFolha{
+        font-size: 20px;
+    }
+
+    #folha{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .containerTextArea{
+        padding: 0;
+        
+        margin: 0;
+    }
+
+    .simboloHeaderHome{
+        padding: 0;
+
+    }   
+}
