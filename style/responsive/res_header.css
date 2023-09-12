@@ -38,6 +38,10 @@
 }
 
 @media screen and (max-width:768px) {
+    .mobile-logo-link {
+        display: block;
+        width: 100%;
+    }
    
     .box_img_header img {
         width: 40%;
