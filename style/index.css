@@ -780,7 +780,7 @@ main {
 
 .node_color {
     background-image: linear-gradient(to bottom, #3ea374c2, #00ff88c2);
-    height: 40%;
+    height: 50%;
     width: 100%;
 }
 .node_color img{
@@ -855,7 +855,7 @@ main {
 
 .mysql_color {
     background-image: linear-gradient(to right, #1a6383, rgba(255, 255, 255, 0.692), #f79d4f);
-    height: 36%;
+    height: 45%;
     width: 100%;
 }
 
